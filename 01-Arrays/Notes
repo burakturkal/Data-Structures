@@ -1,0 +1,26 @@
+ARRAY PERFORMANCE
+
+Accesing an element of array: O(1)
+Insert an element to the end: O(1)
+Insert an element to beginning(And shift the others): O(n) -> worst case
+Delete an element from the beginning(And shift the others): O(n) -> worst case
+Delete an element from the end: O(1)
+
+-----------------------------------------------------------
+
+Vector Class and ArrayList Class PERFORMANCE
+
+Indexing O(1)
+Insert/delete beginning  O(n)
+Insert/delete at end  O(1)
+Insert/delete in middle  O(n)
+
+Methods:
+add()  O(1)
+add(index,element)  O(n)
+get()  O(1)
+remove  O(n)
+indexOf()  O(n)
+contains  -> depends on the index
+Insert  O(n)
+Delete  O(n)
